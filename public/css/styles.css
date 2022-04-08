@@ -15,7 +15,24 @@ body {
   justify-content: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #D29D2B;
+  background-color: #F6E7D8;
+}
+
+.btn {
+  background-color: #F68989;
+  border: solid #C65D7B;
+}
+
+.btn:hover{
+  background-color: #F68989;
+}
+
+.btn:focus{
+  background-color: #F68989;
+}
+
+.jumbotron jumbotron-fluid {
+  background-color: #F68989;
 }
 
 .form-signin {
@@ -36,6 +53,7 @@ body {
 }
 .form-signin .form-control:focus {
   z-index: 2;
+  background-color: #F68989;
 }
 .top{
   margin-bottom: -1px;
